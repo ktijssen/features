@@ -1,0 +1,18 @@
+{
+    "argocd-specific-version-without-prefix": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "argocd": {
+                "version": "3.0.6"
+            }
+        }
+    },
+    "argocd-specific-version-with-prefix": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "argocd": {
+                "version": "v3.0.6"
+            }
+        }
+    }
+}
