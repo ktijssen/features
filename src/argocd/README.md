@@ -1,7 +1,7 @@
 
 # argocd (argocd)
 
-argocd makes it very easy to create single- and multi-node k3s clusters in docker, e.g. for local development on Kubernetes.
+Declarative GitOps CD for Kubernetes
 
 ## Example Usage
 
@@ -15,7 +15,7 @@ argocd makes it very easy to create single- and multi-node k3s clusters in docke
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of argocd to install. Accepts versions with or without the 'v' prefix. | string | latest |
+| version | Select the Argo CD CLI version you would like to install. Accepts versions with or without the 'v' prefix. | string | latest |
 
 
 
