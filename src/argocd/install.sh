@@ -41,7 +41,7 @@ main () {
         *) echo "The current architecture (${ARCH}) is not supported."; exit 1 ;;
     esac
 
-    local ARGOCD_URL="https://github.com/argoproj/argo-cd/releases/download/latest/argocd-linux-${ARCH}"
+    local ARGOCD_URL="https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-${ARCH}"
     if [ "${ARGOCD_VERSION}" != "latest" ] ; then
         ARGOCD_URL="https://github.com/argoproj/argo-cd/releases/download/v${ARGOCD_VERSION#[vV]}/argocd-linux-${ARCH}"
     fi
